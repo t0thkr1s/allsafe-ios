@@ -1,7 +1,7 @@
 <div align="center">
   <img src="screenshots/logo.png" alt="Allsafe Logo" width="120"/>
   
-  # Allsafe
+  # Allsafe - iOS
   
   **An Intentionally Vulnerable iOS Application for Security Education**
   
