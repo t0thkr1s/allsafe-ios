@@ -8,16 +8,6 @@
   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   ![Swift](https://img.shields.io/badge/Swift-Swift_Project-FA7343.svg?style=flat&logo=swift)
   ![iOS](https://img.shields.io/badge/iOS-iOS_Project-999999.svg?style=flat&logo=apple)
-  
-  <p align="center">
-    <a href="#features">Features</a> •
-    <a href="#screenshots">Screenshots</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#challenges">Challenges</a> •
-    <a href="#contributing">Contributing</a> •
-    <a href="#support">Support</a>
-  </p>
-</div>
 
 ---
 
