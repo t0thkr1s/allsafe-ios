@@ -9,7 +9,7 @@
   ![Swift](https://img.shields.io/badge/Swift-Swift_Project-FA7343.svg?style=flat&logo=swift)
   ![iOS](https://img.shields.io/badge/iOS-iOS_Project-999999.svg?style=flat&logo=apple)
 
----
+</div>
 
 ## 📱 About
 
