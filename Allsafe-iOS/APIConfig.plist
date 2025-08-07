@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIEndpoints</key>
+	<dict>
+		<key>ProductionAPI</key>
+		<string>https://api.allsafe-corp.com/v1</string>
+		<key>StagingAPI</key>
+		<string>https://staging-api.allsafe-corp.com/v1</string>
+		<key>DevAPI</key>
+		<string>https://dev-api.allsafe-corp.com/v1</string>
+	</dict>
+	<key>APIKeys</key>
+	<dict>
+		<key>ProductionKey</key>
+		<string>ak_prod_4f8b2c1e9d3a5b7f8e9c2d1a4b6e8f3c</string>
+		<key>StagingKey</key>
+		<string>ak_stag_2a1b3c4d5e6f7g8h9i0j1k2l3m4n5o6p</string>
+		<key>DevKey</key>
+		<string>ak_dev_9x8w7v6u5t4s3r2q1p0o9n8m7l6k5j4i</string>
+	</dict>
+	<key>DatabaseCredentials</key>
+	<dict>
+		<key>DBHost</key>
+		<string>db.allsafe-internal.com</string>
+		<key>DBUser</key>
+		<string>admin_service</string>
+		<key>DBPassword</key>
+		<string>P@ssw0rd123_DB</string>
+		<key>DBName</key>
+		<string>allsafe_production</string>
+	</dict>
+	<key>ThirdPartyServices</key>
+	<dict>
+		<key>AWSAccessKey</key>
+		<string>AKIA4EXAMPLE2ACCESSKEY</string>
+		<key>AWSSecretKey</key>
+		<string>wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY</string>
+		<key>StripeAPIKey</key>
+		<string>sk_live_51H8xxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+		<key>SendGridAPIKey</key>
+		<string>SG.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+	</dict>
+	<key>SecretFlag</key>
+	<string>FLAG{property_lists_expose_secrets_p4432}</string>
+	<key>AdminCredentials</key>
+	<dict>
+		<key>Username</key>
+		<string>root_admin</string>
+		<key>Password</key>
+		<string>AllSafe2024!Admin</string>
+		<key>AccessLevel</key>
+		<string>SuperUser</string>
+	</dict>
+	<key>EncryptionKeys</key>
+	<dict>
+		<key>AESKey</key>
+		<string>2b7e151628aed2a6abf7158809cf4f3c</string>
+		<key>RSAPrivateKey</key>
+		<string>-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA1234567890abcdef...
+-----END RSA PRIVATE KEY-----</string>
+	</dict>
+</dict>
+</plist>
