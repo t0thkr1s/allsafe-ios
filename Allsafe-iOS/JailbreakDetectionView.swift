@@ -167,7 +167,7 @@ struct JailbreakMissionBriefingView: View {
             .font(.system(size: 11, design: .monospaced))
             .foregroundColor(.gray)
             
-            Text("\nTARGET: Use Frida to hook isJailbroken() method and return false")
+            Text("\nTARGET: Use Frida to hook the jailbreak detection method or try other alternatives.")
                 .font(.system(size: 12, weight: .medium, design: .monospaced))
                 .foregroundColor(.yellow)
         }
