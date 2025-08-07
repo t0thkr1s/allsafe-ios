@@ -54,7 +54,7 @@
 #### Download IPA from the realeses
 
 ```bash
-# Download the latest APK from releases
+# Download the latest IPA from releases
 wget https://github.com/t0thkr1s/allsafe-ios/releases/latest/download/allsafe-ios.ipa
 ```
 
