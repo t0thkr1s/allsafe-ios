@@ -137,19 +137,6 @@ struct SSLPinningMissionBriefingView: View {
             .font(.system(size: 11, design: .monospaced))
             .foregroundColor(.gray)
             
-            Text("\nTOOLS REQUIRED:")
-                .font(.system(size: 12, weight: .bold, design: .monospaced))
-                .foregroundColor(.orange)
-            
-            VStack(alignment: .leading, spacing: 4) {
-                Text("• Burp Suite Professional/Community")
-                Text("• Frida dynamic instrumentation toolkit")
-                Text("• iOS SSL Kill Switch 2 or custom Frida script")
-                Text("• Valid proxy configuration on device")
-            }
-            .font(.system(size: 11, design: .monospaced))
-            .foregroundColor(.gray)
-            
             Text("\nTARGET: Bypass SSL pinning to intercept HTTPS traffic")
                 .font(.system(size: 12, weight: .medium, design: .monospaced))
                 .foregroundColor(.yellow)
@@ -170,21 +157,10 @@ struct SSLPinningTestPortalView: View {
     
     var body: some View {
         VStack(spacing: 16) {
-            Text("SECURE API ENDPOINT")
+            Text("BACKEND API CALL CHECK")
                 .font(.system(size: 14, weight: .bold, design: .monospaced))
                 .foregroundColor(.green)
                 .tracking(1)
-            
-            Text("https://api.allsafe-app.com/secure/data")
-                .font(.system(size: 12, design: .monospaced))
-                .foregroundColor(.cyan)
-                .padding(.horizontal, 12)
-                .padding(.vertical, 6)
-                .background(
-                    RoundedRectangle(cornerRadius: 0)
-                        .stroke(Color.cyan, lineWidth: 1)
-                        .background(Color.black.opacity(0.3))
-                )
             
             VStack(spacing: 12) {
                 Button(action: requestAction) {
@@ -202,7 +178,7 @@ struct SSLPinningTestPortalView: View {
                 .disabled(isRequestInProgress)
                 .padding(.horizontal, 24)
                 .padding(.vertical, 12)
-                .background(Color.blue)
+                .background(Color.green)
                 .cornerRadius(0)
                 
                 if !requestResult.isEmpty {
