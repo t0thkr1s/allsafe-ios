@@ -115,7 +115,7 @@ struct HardcodedKeysVulnerabilityView: View {
 struct HardcodedKeysChallengeHeaderView: View {
     var body: some View {
         VStack(spacing: 12) {
-            Text("[CHALLENGE 02]")
+            Text("[CHALLENGE]")
                 .font(.system(size: 14, weight: .medium, design: .monospaced))
                 .foregroundColor(.green)
                 .tracking(2)

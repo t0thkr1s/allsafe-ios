@@ -94,7 +94,7 @@ struct SSLPinningBypassView: View {
 struct SSLPinningChallengeHeaderView: View {
     var body: some View {
         VStack(spacing: 12) {
-            Text("[CHALLENGE 08]")
+            Text("[CHALLENGE]")
                 .font(.system(size: 14, weight: .medium, design: .monospaced))
                 .foregroundColor(.green)
                 .tracking(2)

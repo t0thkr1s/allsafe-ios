@@ -22,7 +22,7 @@ struct WebViewXSSView: View {
 struct WebViewXSSChallengeHeaderView: View {
     var body: some View {
         VStack(spacing: 12) {
-            Text("[CHALLENGE 09]")
+            Text("[CHALLENGE]")
                 .font(.system(size: 14, weight: .medium, design: .monospaced))
                 .foregroundColor(.green)
                 .tracking(2)
