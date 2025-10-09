@@ -36,7 +36,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                
+            
                 // Drawer overlay
                 if isDrawerOpen {
                     Color.black.opacity(0.7)
@@ -147,3 +147,4 @@ struct WelcomeView: View {
 #Preview {
     ContentView()
 }
+
